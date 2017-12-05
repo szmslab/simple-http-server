@@ -1,0 +1,24 @@
+body {
+    color: #ffffff;
+    background-color: #303030;
+}
+
+ul {
+    font-size: 1.6rem;
+}
+
+a:link {
+    color: #009688;
+}
+
+a:visited {
+    color: #f50057;
+}
+
+a:hover {
+    color: #ff4081;
+}
+
+a:active {
+    color: #ff80ab;
+}

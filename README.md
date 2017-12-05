@@ -1,2 +1,2 @@
 # simple-http-server
-Simple HTTP server for training
+Simple HTTP Server for training

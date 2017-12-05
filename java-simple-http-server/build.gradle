@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.szmslab.simplehttpserver'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext.defaultEncoding = 'UTF-8'
+tasks.withType(AbstractCompile).each {
+    it.options.encoding = ext.defaultEncoding
+}
+
+mainClassName = "com.szmslab.simplehttpserver.App"
+
+repositories {
+    mavenCentral()
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.3.1'
+}
